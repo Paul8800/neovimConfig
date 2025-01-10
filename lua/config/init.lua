@@ -5,6 +5,8 @@ vim.o.expandtab = true
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 
+vim.g.base46_cache = vim.fn.stdpath("data") .. "/nvchad/base46/"
+
 -- Load plugins and mappings
 require("config.plugins")   -- Loads lua/core/plugins.lua
 require("config.keymaps")  -- Loads lua/core/mappings.lua
@@ -15,8 +17,8 @@ pcall(function()
   dofile(vim.g.base46_cache .. "statusline")
 end)
 
-require "options"
-require "nvchad.autocmds"
+vim.opt.clipboard = "unnamedplus" -- Sync with system clipboard
+
 
 -- Line number configuration
 vim.opt.number = true         -- Enable absolute line numbers for the current line

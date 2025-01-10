@@ -1,13 +1,11 @@
 # Paul Pasternak's NeoVim Config
 
-## Dependecies
+## Dependencies
 ```
-sudo apt install ripgrep fd-find bat fzf
+sudo apt install ripgrep fd-find bat fzf tree-sitter
 ```
 
 ## Plugins
-- NVchad (Temporary)
-
 - Telescope
 - TreeSitter
 - Cmp
