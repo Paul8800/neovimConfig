@@ -62,7 +62,7 @@ vim.keymap.set("n", "<F5>", function()
     local file_dir = vim.fn.expand("%:p:h") -- Directory of the current file
 
     -- Command to execute the batch file in an external terminal
-    local cmd = string.format("gnome-terminal -- bash -c 'bash ~/NeoVimProjects/RC.sh \"%s\"; exec bash'", file_path)
+    local cmd = string.format("gnome-terminal -- bash -c 'bash RC.sh \"%s\"; exec bash'", file_path)
 
     -- Execute the command
     os.execute(cmd)    
