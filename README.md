@@ -2,8 +2,17 @@
 
 ## Dependencies
 ```
-sudo apt install ripgrep fd-find bat fzf
+sudo apt install ripgrep fd-find bat fzf lua5.3 git
 ```
+
+NeoVim v0.10:
+```
+sudo snap install nvim --beta --classic
+```
+
+Nerd font:
+[https://www.nerdfonts.com/](https://www.nerdfonts.com/)
+
 ## Langugae servers
 c/c++:
 ```
@@ -34,12 +43,12 @@ rustup component add rust-analyzer
 - Oil
 - NeoScroll
 - CodeRunner
-- git
+-https://www.nerdfonts.com/ git
 - ui
 
 ## Install
 ```
-mkdir -p ~/.config
+mkdir -p ~/.config/nvim
 git clone git@github.com:paul8800/neovimConfig.git ~/.config/nvim
 cd ~/.config/nvim
 rm -rf .git
