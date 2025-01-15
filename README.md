@@ -43,7 +43,7 @@ rustup component add rust-analyzer
 - Oil
 - NeoScroll
 - CodeRunner
--https://www.nerdfonts.com/ git
+- git
 - ui
 
 ## Install
